@@ -28,3 +28,27 @@ You can install the required libraries by running:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
+
+📊 Dataset Information
+The Mtcars dataset comprises various attributes of cars, including:
+
+mpg: Miles per gallon
+cyl: Number of cylinders
+disp: Displacement (cu.in.)
+hp: Horsepower
+wt: Weight (1000 lbs)
+qsec: 1/4 mile time
+and other features.
+This dataset is part of R's base datasets and is widely used for educational purposes in statistics and machine learning.
+
+🔍 Notebook Highlights
+Data Cleaning: The notebook begins by loading the data, checking for missing values, and performing necessary data cleaning steps.
+Data Visualization: Various plots such as histograms, box plots, scatter plots, and correlation heatmaps are used to explore the relationships between different variables.
+Statistical Analysis: Basic descriptive statistics are provided, and trends are explored to understand the dataset's characteristics.
+💻 Usage
+Clone this repository and run the notebook in any Jupyter environment to explore the Mtcars dataset on your own.
+
+git clone https://github.com/yourusername/Mtcars_EDA.git
+cd Mtcars_EDA
+jupyter notebook Mtcars_dataSet_EDA.ipynb
