@@ -1,31 +1,38 @@
-# 🚗 Mtcars Dataset Exploratory Data Analysis (EDA)
+# Mtcars Dataset — EDA 🚗
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![pandas](https://img.shields.io/badge/Library-pandas-green.svg)](https://pandas.pydata.org/)
-[![seaborn](https://img.shields.io/badge/Visualization-seaborn-blue.svg)](https://seaborn.pydata.org/)
+[![Language](https://img.shields.io/badge/Language-Python%20%7C%20Jupyter-blue)](https://github.com/aeleraqi/Mtcars-dataSet-EDA)
+[![Stars](https://img.shields.io/github/stars/aeleraqi/Mtcars-dataSet-EDA?style=social)](https://github.com/aeleraqi/Mtcars-dataSet-EDA/stargazers)
 
-This repository contains an Exploratory Data Analysis (EDA) of the famous **Mtcars** dataset, conducted in a Jupyter Notebook. The analysis aims to provide insights into the relationships between various attributes of cars such as miles per gallon (mpg), weight, horsepower, and others.
+Comprehensive **Exploratory Data Analysis (EDA)** of the classic **Motor Trend Car Road Tests (Mtcars)** dataset.
 
-## 📂 File Structure
+## 📖 About
 
-- **`Mtcars_dataSet_EDA.ipynb`**: This Jupyter notebook contains the code for performing data analysis, including:
-  - Data loading and cleaning
-  - Descriptive statistics
-  - Data visualization using various libraries
-  - Insights drawn from the dataset based on correlations and trends
+The Mtcars dataset is a classic benchmark in statistics and data science. This notebook performs a thorough EDA, uncovering relationships between horsepower, weight, fuel efficiency, and transmission type through rich visualizations and statistical analysis.
 
-## 📦 Requirements
+## 📊 Analysis Includes
 
-To run this notebook, you need the following libraries installed in your Python environment:
-- `pandas`: For data manipulation and analysis.
-- `numpy`: For numerical operations.
-- `matplotlib` and `seaborn`: For data visualization.
-- `scikit-learn`: For additional statistical methods and model-building (if applicable).
+- Dataset overview and descriptive statistics
+- Univariate analysis (distributions of mpg, hp, wt, etc.)
+- Bivariate analysis (mpg vs horsepower, weight vs fuel efficiency)
+- Correlation heatmap across all variables
+- Automatic vs Manual transmission comparison
+- Outlier detection and handling
 
-You can install the required libraries by running:
+## 🚀 Getting Started
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-...
+git clone https://github.com/aeleraqi/Mtcars-dataSet-EDA.git
+pip install pandas matplotlib seaborn numpy
+jupyter notebook Mtcars_EDA.ipynb
+```
+
+## 🔑 Key Findings
+
+- Strong negative correlation between weight and fuel efficiency
+- Manual transmissions generally achieve higher MPG in this dataset
+- Horsepower is the primary driver of fuel consumption variance
+
+---
+**Author:** [Amr Eleraqi](https://github.com/aeleraqi) — Data Analyst | NLP Specialist | Machine Learning Expert | Educator  
+**Affiliation:** Toronto Metropolitan University, Ontario, Canada  
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0935--0026-brightgreen)](https://orcid.org/0000-0003-0935-0026) [![GitHub](https://img.shields.io/github/followers/aeleraqi?label=Follow&style=social)](https://github.com/aeleraqi)
